@@ -1,0 +1,60 @@
+* {
+  font-family: NotoSansMono;
+  font-size: 12pt;
+  color: white;
+  border: none;
+  border-radius: 10;
+  box-shadow: none;
+  text-shadow: none;
+  transition-duration: 0s;
+}
+
+window#waybar {
+  background: #1b182c;
+  opacity: 0.90;
+}
+
+#window,
+#memory,
+#disk,
+#pulseaudio,
+#custom-weather,
+#custom-updates,
+#custom-power,
+
+#cpu {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#custom-weather {
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+#workspaces {
+  background: #af25c2;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 1rem 1rem 0;
+}
+#workspaces button {
+  background: transparent;
+}
+
+#workspaces button.focused {
+  background: #792085;
+  border-radius: 1rem;
+}
+
+#custom-updates {
+    font-size:15px;
+    margin-left:15px;
+    margin-right:10px;
+    font-weight: bold;
+}
+#custom-power {
+    margin-left:15px;
+    margin-right:15px;
+    font-size:12px;
+}
