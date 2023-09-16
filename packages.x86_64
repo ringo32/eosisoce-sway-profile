@@ -244,6 +244,8 @@ ttf-ubuntu-font-family
 xfce4-terminal
 
 
+# test polkit liveiso
+lxsession
 
 ## Editor
 xed

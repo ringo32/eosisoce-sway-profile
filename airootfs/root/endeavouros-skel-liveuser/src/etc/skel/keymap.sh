@@ -11,7 +11,7 @@ dialog1(){
                      --no-items --menu "Please choose one keyboard: " \
                      --output-fd 1 10 40 0 ${list[@]///} )
     echo $keymap
-loadkeys $keymap
+sudo localectl set-map $keymap
 }
 
 fi
